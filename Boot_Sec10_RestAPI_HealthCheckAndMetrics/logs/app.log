@@ -1,0 +1,106 @@
+2023-12-20T15:32:42.125+05:30  INFO 20648 --- [main] ApiHealthCheckAndMetricsApplicationTests : Starting BootSec10RestApiHealthCheckAndMetricsApplicationTests using Java 17.0.4.1 with PID 20648 (started by Aarush in C:\Users\Aarush\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE_A1\Boot_Sec10_RestAPI_HealthCheckAndMetrics)
+2023-12-20T15:32:42.150+05:30  INFO 20648 --- [main] ApiHealthCheckAndMetricsApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-12-20T15:32:45.047+05:30  INFO 20648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-20T15:32:45.177+05:30  INFO 20648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interface.
+2023-12-20T15:32:47.493+05:30  INFO 20648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-20T15:32:48.482+05:30  INFO 20648 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60652518
+2023-12-20T15:32:48.488+05:30  INFO 20648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-20T15:32:48.599+05:30  INFO 20648 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-20T15:32:48.855+05:30  INFO 20648 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-20T15:32:48.999+05:30  INFO 20648 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-20T15:32:49.680+05:30  INFO 20648 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-20T15:32:51.847+05:30  INFO 20648 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-20T15:32:51.856+05:30  INFO 20648 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-20T15:32:53.151+05:30  WARN 20648 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-20T15:32:55.554+05:30  INFO 20648 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-12-20T15:32:55.732+05:30  INFO 20648 --- [main] ApiHealthCheckAndMetricsApplicationTests : Started BootSec10RestApiHealthCheckAndMetricsApplicationTests in 14.683 seconds (process running for 17.681)
+2023-12-20T15:32:57.601+05:30  INFO 20648 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-20T15:32:57.607+05:30  INFO 20648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-20T15:32:57.631+05:30  INFO 20648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-20T15:35:19.886+05:30  INFO 19596 --- [main] 0RestApiHealthCheckAndMetricsApplication : Starting BootSec10RestApiHealthCheckAndMetricsApplication using Java 17.0.4.1 with PID 19596 (C:\Users\Aarush\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE_A1\Boot_Sec10_RestAPI_HealthCheckAndMetrics\target\classes started by Aarush in C:\Users\Aarush\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE_A1\Boot_Sec10_RestAPI_HealthCheckAndMetrics)
+2023-12-20T15:35:19.891+05:30  INFO 19596 --- [main] 0RestApiHealthCheckAndMetricsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-12-20T15:35:21.497+05:30  INFO 19596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-20T15:35:21.596+05:30  INFO 19596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interface.
+2023-12-20T15:35:22.830+05:30  INFO 19596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-12-20T15:35:22.846+05:30  INFO 19596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-20T15:35:22.847+05:30  INFO 19596 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-20T15:35:22.957+05:30  INFO 19596 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2023-12-20T15:35:22.958+05:30  INFO 19596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2952 ms
+2023-12-20T15:35:23.517+05:30  INFO 19596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-20T15:35:24.046+05:30  INFO 19596 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c956dda
+2023-12-20T15:35:24.050+05:30  INFO 19596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-20T15:35:24.127+05:30  INFO 19596 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-20T15:35:24.275+05:30  INFO 19596 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-20T15:35:24.429+05:30  INFO 19596 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-20T15:35:25.048+05:30  INFO 19596 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-20T15:35:26.474+05:30  INFO 19596 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-20T15:35:26.480+05:30  INFO 19596 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-20T15:35:27.128+05:30  WARN 19596 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-20T15:35:28.598+05:30  INFO 19596 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-12-20T15:35:28.785+05:30  INFO 19596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2023-12-20T15:35:28.820+05:30  INFO 19596 --- [main] 0RestApiHealthCheckAndMetricsApplication : Started BootSec10RestApiHealthCheckAndMetricsApplication in 9.727 seconds (process running for 11.312)
+2023-12-20T15:38:15.994+05:30  INFO 19596 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20T15:38:15.995+05:30  INFO 19596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-20T15:38:15.999+05:30  INFO 19596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-20T15:52:08.361+05:30  INFO 19596 --- [RMI TCP Connection(22)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-20T15:52:08.429+05:30  INFO 19596 --- [RMI TCP Connection(22)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-20T15:52:08.442+05:30  INFO 19596 --- [RMI TCP Connection(22)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-20T15:52:08.495+05:30  INFO 19596 --- [RMI TCP Connection(22)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-20T15:52:32.994+05:30  INFO 8836 --- [main] 0RestApiHealthCheckAndMetricsApplication : Starting BootSec10RestApiHealthCheckAndMetricsApplication using Java 17.0.4.1 with PID 8836 (C:\Users\Aarush\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE_A1\Boot_Sec10_RestAPI_HealthCheckAndMetrics\target\classes started by Aarush in C:\Users\Aarush\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE_A1\Boot_Sec10_RestAPI_HealthCheckAndMetrics)
+2023-12-20T15:52:32.999+05:30  INFO 8836 --- [main] 0RestApiHealthCheckAndMetricsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-12-20T15:52:34.794+05:30  INFO 8836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-20T15:52:34.897+05:30  INFO 8836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2023-12-20T15:52:36.670+05:30  INFO 8836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-12-20T15:52:36.691+05:30  INFO 8836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-20T15:52:36.693+05:30  INFO 8836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-20T15:52:37.098+05:30  INFO 8836 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2023-12-20T15:52:37.099+05:30  INFO 8836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3990 ms
+2023-12-20T15:52:37.894+05:30  INFO 8836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-20T15:52:38.512+05:30  INFO 8836 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e49437
+2023-12-20T15:52:38.516+05:30  INFO 8836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-20T15:52:38.628+05:30  INFO 8836 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-20T15:52:38.920+05:30  INFO 8836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-20T15:52:39.060+05:30  INFO 8836 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-20T15:52:39.779+05:30  INFO 8836 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-20T15:52:44.437+05:30  INFO 8836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-20T15:52:44.447+05:30  INFO 8836 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-20T15:52:46.747+05:30  WARN 8836 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-20T15:52:48.831+05:30  INFO 8836 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-12-20T15:52:49.296+05:30  INFO 8836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2023-12-20T15:52:49.329+05:30  INFO 8836 --- [main] 0RestApiHealthCheckAndMetricsApplication : Started BootSec10RestApiHealthCheckAndMetricsApplication in 17.281 seconds (process running for 18.51)
+2023-12-20T15:52:58.457+05:30  INFO 8836 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20T15:52:58.458+05:30  INFO 8836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-20T15:52:58.462+05:30  INFO 8836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-20T15:54:34.525+05:30  INFO 8836 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-20T15:54:34.557+05:30  INFO 8836 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-20T15:54:34.561+05:30  INFO 8836 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-20T15:54:34.578+05:30  INFO 8836 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-20T15:54:43.187+05:30  INFO 21144 --- [main] 0RestApiHealthCheckAndMetricsApplication : Starting BootSec10RestApiHealthCheckAndMetricsApplication using Java 17.0.4.1 with PID 21144 (C:\Users\Aarush\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE_A1\Boot_Sec10_RestAPI_HealthCheckAndMetrics\target\classes started by Aarush in C:\Users\Aarush\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE_A1\Boot_Sec10_RestAPI_HealthCheckAndMetrics)
+2023-12-20T15:54:43.192+05:30  INFO 21144 --- [main] 0RestApiHealthCheckAndMetricsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-12-20T15:54:44.849+05:30  INFO 21144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-20T15:54:44.952+05:30  INFO 21144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
+2023-12-20T15:54:46.226+05:30  INFO 21144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-12-20T15:54:46.241+05:30  INFO 21144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-20T15:54:46.242+05:30  INFO 21144 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-20T15:54:46.380+05:30  INFO 21144 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2023-12-20T15:54:46.381+05:30  INFO 21144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3081 ms
+2023-12-20T15:54:46.942+05:30  INFO 21144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-20T15:54:47.484+05:30  INFO 21144 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bc8d68b
+2023-12-20T15:54:47.488+05:30  INFO 21144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-20T15:54:47.569+05:30  INFO 21144 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-20T15:54:47.729+05:30  INFO 21144 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-20T15:54:47.859+05:30  INFO 21144 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-20T15:54:48.334+05:30  INFO 21144 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-20T15:54:49.823+05:30  INFO 21144 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-20T15:54:49.830+05:30  INFO 21144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-20T15:54:50.484+05:30  WARN 21144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-20T15:54:52.242+05:30  INFO 21144 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-12-20T15:54:52.555+05:30  INFO 21144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2023-12-20T15:54:52.588+05:30  INFO 21144 --- [main] 0RestApiHealthCheckAndMetricsApplication : Started BootSec10RestApiHealthCheckAndMetricsApplication in 10.205 seconds (process running for 11.57)
+2023-12-20T15:55:42.852+05:30  INFO 21144 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20T15:55:42.853+05:30  INFO 21144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-20T15:55:42.856+05:30  INFO 21144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-20T15:55:58.737+05:30  INFO 21144 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-20T15:55:58.769+05:30  INFO 21144 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-20T15:55:58.774+05:30  INFO 21144 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-20T15:55:58.792+05:30  INFO 21144 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

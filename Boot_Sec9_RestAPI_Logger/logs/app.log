@@ -1,0 +1,9 @@
+ 2023-12-11T18:38:49.877+05:30  INFO 14164 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-11T18:38:49.878+05:30  INFO 14164 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-11T18:38:49.881+05:30  INFO 14164 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-11T18:38:50.061+05:30  INFO 14164 --- [http-nio-8080-exec-1] c.a.s.controllers.ProductRestController  : finding product by Id: 1
+2023-12-11T21:55:56.969+05:30  WARN 14164 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h41m15s618ms341µs100ns).
+2023-12-11T22:16:06.729+05:30  INFO 14164 --- [RMI TCP Connection(66)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-11T22:16:06.773+05:30  INFO 14164 --- [RMI TCP Connection(66)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-11T22:16:06.779+05:30  INFO 14164 --- [RMI TCP Connection(66)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-11T22:16:06.794+05:30  INFO 14164 --- [RMI TCP Connection(66)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
